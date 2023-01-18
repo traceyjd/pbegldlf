@@ -8,3 +8,10 @@ for item in menu:
     price = price + 1
 
 print(menu_prices)
+
+for name, price in menu_prices.items():
+    print(name, ': £', format(price, '.2f'), sep='')
+
+
+# Note: To get a list of the keys in a dictionary, use dict_menu.keys()
+#       and to get a list of the values in a dictionry, use dict_name.values()
