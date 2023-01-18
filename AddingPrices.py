@@ -10,7 +10,7 @@ for item in menu:
 print(menu_prices)
 
 for name, price in menu_prices.items():
-    print(name, ': £', format(price, '.2f'), sep='')
+    print(name, ': £', format(price, '.2f'), sep='') # f for float and .2 for decimals places
 
 
 # Note: To get a list of the keys in a dictionary, use dict_menu.keys()
