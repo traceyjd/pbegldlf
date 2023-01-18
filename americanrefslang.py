@@ -24,3 +24,18 @@ print(slang)
 # To update values in your dictionary
 slang['smashing'] = 'awesome'
 print(slang)
+# or to look up the key value use the following
+print(slang['smashing'])
+
+# Removing dcitionary items
+slang = {"cheerio":"goodbye", 'knackered':'tired','yonks':'ages'}
+del slang['cheerio']
+print(slang)
+
+# Get item that might not be there
+slang = {"cheerio":"goodbye", 'knackered':'tired','yonks':'ages'}
+slang['bloody'] # This throws an error
+
+#instead use get
+
+
