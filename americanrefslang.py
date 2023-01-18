@@ -38,4 +38,12 @@ slang['bloody'] # This throws an error
 
 #instead use get
 
+# Get a value that might not be there
+slang = {"cheerio":"goodbye", 'knackered':'tired','yonks':'ages'}
+result = slang.get('bloody') # Using get is best practice because it wont crash your program!!!!!!
+if result:
+    print(result) # This returns None, None is a type that represents the asense of a value and None evaluates to False in a conditional
+# if not there and True if there
+else:
+    print('Key doesnt exist')
 
