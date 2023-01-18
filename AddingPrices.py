@@ -15,3 +15,7 @@ for name, price in menu_prices.items():
 
 # Note: To get a list of the keys in a dictionary, use dict_menu.keys()
 #       and to get a list of the values in a dictionry, use dict_name.values()
+
+#  For loops allow you to loop a certain number of times
+#  While loops allow you to loop until a condition is True or something happens
+
