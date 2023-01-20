@@ -1,4 +1,3 @@
-
 # Create our Monty Python Restaurant Menu
 
 # For each British slang word, lets create a menu item made with Spam
