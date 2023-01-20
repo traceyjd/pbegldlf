@@ -1,4 +1,3 @@
-
 #  Testing upload
 
 menu = ['Knackered Spam', 'Pip pip Spam', 'Squidgy Spam', 'Smashing Spam']
