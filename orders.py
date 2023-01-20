@@ -1,5 +1,4 @@
 
-
 # Create orders list
 #menu = { 'Breakfast' : ['Spam n Eggs', 'Spam n Jam', 'Spam n Eggs'],
           # 'Lunch' : ['SLT (Spam-Lettuce-Tomato', 'PB&S (PB&Spam)'],
