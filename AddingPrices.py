@@ -1,4 +1,3 @@
-
 #  Assigning prices to our Menu Items
 menu = ['Knackered Spam', 'Pip pip Spam', 'Squidgy Spam', 'Smashing Spam']
 menu_prices = {}
