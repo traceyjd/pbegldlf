@@ -1,5 +1,4 @@
 
-
 # Generate a randome raffle ticket
 import random
 
