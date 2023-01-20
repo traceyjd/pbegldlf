@@ -1,4 +1,3 @@
-
 # Comparing Lists
 
 # How do we check if two lists are equal????
