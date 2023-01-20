@@ -1,4 +1,3 @@
-
 # Dictionaries are different from lists as you look up the item by its key not its index
 
 # Using curly brackets - Items are key value pairs and separated by colons
