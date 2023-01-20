@@ -1,4 +1,3 @@
-
 # For loop - For each item in our list do this
 # Average price
 total = 0
