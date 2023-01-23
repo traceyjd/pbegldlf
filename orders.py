@@ -3,7 +3,7 @@
           # 'Lunch' : ['SLT (Spam-Lettuce-Tomato', 'PB&S (PB&Spam)'],
           # 'Dinner' : ['Spalad', 'Spamghetti', 'Spam Noodle Soup']}
 
-menu = {'Knackered Spam': 0.5, 'Pip pip Spam': 1.5, 'Squidgy Spam': 2.5, 'Smashing Spam': 3.5}
+menu = {'Knackered Spam': 0.5, 'Pip Spam': 1.5, 'Squidgy Spam': 2.5, 'Smashing Spam': 3.5, 'Cheeky Spam': 4.5}
 orders = []
 order = input('What would you like to order? (Q to Quit)')
 
@@ -21,6 +21,6 @@ while (order.upper() != 'Q'):
     # If we dont change "order" in the loop
 
     # See if the customer want to order antything else
-    order = input('Do you want to order antything else? (Q to Quit)')
+    order = input('Anything else? (Q to Quit)')
 
 print(orders)
