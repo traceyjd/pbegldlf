@@ -7,7 +7,9 @@ menu = {'Knackered Spam': 0.5, 'Pip pip Spam': 1.5, 'Squidgy Spam': 2.5, 'Smashi
 orders = []
 order = input('What would you like to order? (Q to Quit)')
 
-while (order.upper() != 'Q'):
+while(True):
+    if (order.upper() == 'Q'):
+        break
     # Find the order and add it to the list if it exists
 
     found = menu.get(order) # Try to get the menu item
