@@ -20,7 +20,7 @@ while (order.upper() != 'Q'):
 
     # If we dont change "order" in the loop
 
-    # See if the customer wnat to order antything else
+    # See if the customer want to order antything else
     order = input('Do you want to order antything else? (Q to Quit)')
 
 print(orders)
