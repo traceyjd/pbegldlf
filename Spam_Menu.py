@@ -2,6 +2,7 @@
 
 # For each British slang word, lets create a menu item made with Spam
 
+
 slang = ['Knackered', 'Pip pip', 'Squidgy', 'Smashing']
 
 
