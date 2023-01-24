@@ -10,3 +10,4 @@ for price in prices:
 
 average = total/len(prices) # The length function gives us all the prices in the list
 print('average is', average)
+
