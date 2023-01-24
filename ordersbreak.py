@@ -3,6 +3,7 @@ menu = {'Knackered Spam': 0.5, 'Pip Spam': 1.5, 'Squidgy Spam': 2.5, 'Smashing S
 orders = []
 order = input('What would you like to order? (Q to Quit)')
 
+
 while (True):
     if order.upper() == 'Q':
         break
