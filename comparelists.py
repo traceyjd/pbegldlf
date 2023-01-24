@@ -1,6 +1,5 @@
 # Comparing Lists
 
-
 # How do we check if two lists are equal????
 # They have to have the same items and in exactly the same order
 
