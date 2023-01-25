@@ -4,6 +4,10 @@ orders = []
 order = input('What would you like to order? (Q to Quit)')
 
 while (True):
+    if order == 'Cheeky Spam':
+        print('Sorry, we are all out of that!')
+        continue
+
     if order.upper() == 'Q':
         break
     # Find the order and add it to the list if it exists
