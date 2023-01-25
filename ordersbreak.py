@@ -4,7 +4,6 @@ orders = []
 order = input('What would you like to order? (Q to Quit)')
 
 while (True):
-    order = input('Anything else? (Q to Quit)')
     if order == 'Cheeky Spam':
         print('Sorry, we are all out of that!')
         continue
@@ -20,10 +19,8 @@ while (True):
         print("Menu item doesn't exist")
 
     # See if the customer wants to order anything else
-
     # If we dont change "order" in the loop
-
-    # See if the customer want to order antything else
-
+    # See if the customer wants to order antything else
+    order = input('Anything else? (Q to Quit)')
 
 print(orders)
