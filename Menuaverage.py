@@ -33,6 +33,4 @@ def average(numbers):
         avg = total/len(numbers)
         return avg
 
-
-
 print(orders)
