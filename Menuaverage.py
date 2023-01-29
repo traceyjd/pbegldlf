@@ -25,12 +25,12 @@ while (True):
     # See if the customer wants to order antything else
     order = input('Anything else? (Q to Quit)')
 
-def average(prices):
+def average(numbers):
     total = 0
-    for price in prices:
-        total = total + price
+    for num in numbers:
+        total = total + num
 
-        avg = total/len(prices)
+        avg = total/len(numbers)
         return avg
 
 
