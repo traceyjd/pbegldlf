@@ -30,7 +30,7 @@ def average(numbers):
     for num in numbers:
         total = total + num
 
-        avg = total/len(numbers)
-        return avg
+    avg = total/len(numbers)
+    return avg
 
 print(orders)
