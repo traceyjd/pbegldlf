@@ -7,6 +7,7 @@ def average(numbers):
     avg = total/len(numbers)
     return avg
 
+# main
 # Use our function on prices
 prices = [2.50, 3, 4.50, 5] #  First line of code thats run
 
