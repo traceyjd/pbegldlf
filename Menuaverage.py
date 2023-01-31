@@ -33,4 +33,9 @@ def average(numbers):
     avg = total/len(numbers)
     return avg
 
+# main
+#prices = [2.50, 3, 4.50, 5] #  First line of code thats run
+
+#result = average(prices)
+
 print(orders)
