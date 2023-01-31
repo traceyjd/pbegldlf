@@ -6,7 +6,7 @@
 
 def print_menu(menu):
     for name, price in menu.items():
-        print(name, ': $', format(price, '.2f'), sep='')  # indented : contents of the function are indented
+        print(name, ': £', format(price, '.2f'), sep='')  # indented : contents of the function are indented
     # We dont need to return anything as we are just printing
 
 def get_order(menu):
@@ -27,10 +27,20 @@ def get_order(menu):
         order = input('Anything else? (Q to Quit)')
     return orders
 
+def bill_total(orders, menu):
+    total = 0
+
+    for order in orders:
+        total += menu[order]
+    return total
+
+
 def main():
     menu = {'Knackered Spam': 0.5, 'Pip Spam': 1.5, 'Squidgy Spam': 2.5, 'Smashing Spam': 3.5, 'Cheeky Spam': 4.5}
     print_menu(menu)
-    order = get_order(menu)
-    print('You ordered:',order)
+    orders = get_order(menu)
+    total = bill_total(orders, menu)
+    print('You ordered:', orders,
+          'Your total is: £', format(total,'.2f'), sep='')
 
 main()
