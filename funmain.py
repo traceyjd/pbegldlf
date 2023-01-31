@@ -15,6 +15,9 @@ def main():
     result = average(prices)
 
     print(result)
-main()
+main() #  All of the execution starts here and will run the main function above. It will run all the lines of code in
+# in main until average gets called above, then average runs and returns a value to main and main continues
+
+#  Functions dont get run until they are called
 
 
