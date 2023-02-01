@@ -37,7 +37,7 @@ def bill_total(orders, menu):
 
 
 def write_sales_log(order):
-    file = open('sales.txt', 'w')
+    file = open('sales.txt', 'a')
 
     total = 0
     for item, price in order.items():
