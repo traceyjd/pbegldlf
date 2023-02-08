@@ -4,6 +4,7 @@
           # 'Dinner' : ['Spalad', 'Spamghetti', 'Spam Noodle Soup']}
 
 menu = {'Knackered Spam': 0.5, 'Pip Spam': 1.5, 'Squidgy Spam': 2.5, 'Smashing Spam': 3.5, 'Cheeky Spam': 4.5}
+print(menu)
 orders = []
 order = input('What would you like to order? (Q to Quit)')
 
