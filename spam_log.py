@@ -47,6 +47,7 @@ def write_sales_log(order):
     file.close()
 
 
+
 def main():
     menu = {'Knackered Spam': 0.5, 'Pip Spam': 1.5, 'Squidgy Spam': 2.5, 'Smashing Spam': 3.5, 'Cheeky Spam': 4.5}
     write_sales_log(menu)
