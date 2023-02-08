@@ -1,9 +1,8 @@
 
-def read_pound_menu()
+def read_pound_menu():
     pound_spam = open('pound_menu.txt', 'r')
 
-    pound_menu = []
-    for line in pound_menu:
+    for line in pound_spam:
         print(line)
 
     pound_spam.close()
