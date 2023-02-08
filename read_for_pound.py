@@ -7,4 +7,3 @@ def read_pound_menu()
         print(line)
 
     pound_spam.close()
-
