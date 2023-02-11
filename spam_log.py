@@ -50,10 +50,12 @@ def write_sales_log(order):
 
 def main():
     menu = {'Knackered Spam': 0.5, 'Pip Spam': 1.5, 'Squidgy Spam': 2.5, 'Smashing Spam': 3.5, 'Cheeky Spam': 4.5}
-    write_sales_log(menu) # this is wrong
+
+    # write_sales_log(menu) # this is wrong
     print_menu(menu)
     orders = get_order(menu)
     total = bill_total(orders, menu)
+    write_sales_log(orders)  # this is wrong, its just writing out the menu
     print('You ordered:', orders,
           'Your total is: £', format(total,'.2f'), sep='')
 
